@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    latitude = -72.928272
+    latitude = -62.928272
     longitude = -43.346624
     timestamp = time.time()
 
